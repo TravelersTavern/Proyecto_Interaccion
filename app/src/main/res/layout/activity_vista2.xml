@@ -11,4 +11,11 @@
         android:text="Vista2"
         tools:layout_editor_absoluteX="129dp"
         tools:layout_editor_absoluteY="102dp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="-25dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
