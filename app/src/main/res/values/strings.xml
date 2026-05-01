@@ -1,3 +1,41 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Ruta CERO</string>
+
+    <string name="inicio_title">RUTA CERO</string>
+    <string name="inicio_subtitle">Movilidad inteligente y colaborativa para Guadalajara.</string>
+    <string name="inicio_btn_mapa">Unidades en vivo</string>
+    <string name="inicio_btn_modo_certero">Modo Certero (ETA)</string>
+    <string name="inicio_btn_alerta">Alerta CERO</string>
+    <string name="inicio_status_ready">Sistema listo: selecciona un modulo para iniciar.</string>
+
+    <string name="units_title">Unidades en vivo (demo)</string>
+    <string name="units_subtitle">Estado simulado de buses en corredores clave del AMG.</string>
+    <string name="units_feed_placeholder">Sin datos aun. Toca "Actualizar feed".</string>
+    <string name="units_btn_refresh">Actualizar feed</string>
+    <string name="units_feed_template">C01 - Av. Vallarta: ocupacion %1$s%%, ETA 6 min\nC98 - Calzada Independencia: ocupacion %2$s%%, ETA 11 min\nT11 - Lazaro Cardenas: ocupacion 33.0%%, ETA 4 min</string>
+
+    <string name="eta_title">Modo Certero</string>
+    <string name="eta_subtitle">Calcula tiempo estimado con distancia, velocidad y factor de trafico.</string>
+    <string name="eta_hint_distance">Distancia (km)</string>
+    <string name="eta_hint_speed">Velocidad promedio (km/h)</string>
+    <string name="eta_btn_calculate">Calcular ETA</string>
+    <string name="eta_result_placeholder">Ingresa datos para estimar tu llegada.</string>
+    <string name="eta_result_template">ETA estimado: %1$d minutos</string>
+    <string name="eta_error_empty_fields">Completa distancia y velocidad para continuar.</string>
+    <string name="eta_error_invalid_number">Formato invalido. Usa solo numeros.</string>
+
+    <string name="alert_title">Alerta CERO</string>
+    <string name="alert_subtitle">Registra hasta 3 contactos para compartir tu ubicacion en emergencia.</string>
+    <string name="alert_hint_contact_1">Contacto 1 (telefono)</string>
+    <string name="alert_hint_contact_2">Contacto 2 (opcional)</string>
+    <string name="alert_hint_contact_3">Contacto 3 (opcional)</string>
+    <string name="alert_btn_send">Enviar alerta</string>
+    <string name="alert_btn_send_silent">Enviar alerta silenciosa</string>
+    <string name="alert_status_placeholder">Sin alertas enviadas.</string>
+    <string name="alert_error_no_contact">Agrega al menos un contacto para enviar alerta.</string>
+    <string name="alert_sent_template">Alerta enviada a tus contactos a las %1$s.</string>
+    <string name="alert_sent_silent_template">Alerta silenciosa enviada a las %1$s.</string>
+
+    <string name="splash_loading">Inicializando Ruta CERO...</string>
+    <string name="splash_demo_switch">Modo demo</string>
 </resources>
